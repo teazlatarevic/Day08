@@ -3,14 +3,15 @@ var sum = 0;
 
 function addThree() {
     sum = sum + 3;
-    return sum;
+    console.log(sum);
 }
-addThree();
 
 function addFive() {
     sum = sum + 5;
-    return sum;
+    console.log(sum);
 }
+
+addThree();
 addFive();
 
 // Only change code above this line
